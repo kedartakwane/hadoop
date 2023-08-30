@@ -77,7 +77,7 @@ public class TestRefreshTokenTimeBasedTokenRefresher {
     final String REFRESH_ADDRESS = "http://localhost:" + PORT + "/refresh";
 
     long tokenExpires = 0;
-
+    System.out.println("In here!");
     Configuration conf = buildConf("refresh token key",
         Long.toString(tokenExpires),
         "joebob",
